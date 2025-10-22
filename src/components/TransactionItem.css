@@ -1,0 +1,78 @@
+.transaction-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.transaction-item:hover {
+  background: #F9FAFB;
+}
+
+.transaction-item:not(:last-child) {
+  border-bottom: 1px solid #F3F4F6;
+}
+
+.transaction-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.transaction-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.transaction-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 4px;
+}
+
+.transaction-description {
+  font-size: 14px;
+  color: #9CA3AF;
+  margin-bottom: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.transaction-date {
+  font-size: 12px;
+  color: #9CA3AF;
+}
+
+.transaction-right {
+  text-align: right;
+  margin-right: 8px;
+}
+
+.transaction-amount {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 2px;
+}
+
+.transaction-percentage {
+  font-size: 12px;
+  color: #9CA3AF;
+}
+
+.transaction-chevron {
+  color: #D1D5DB;
+  font-size: 14px;
+  flex-shrink: 0;
+}
+

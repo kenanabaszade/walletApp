@@ -1,0 +1,115 @@
+.transaction-detail-container {
+  max-width: 425px;
+  margin: 0 auto;
+  background: #F5F5F5;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.detail-header {
+  margin-bottom: 40px;
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #5B9FED;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.back-button:hover {
+  opacity: 0.8;
+}
+
+.detail-content {
+  text-align: center;
+}
+
+.detail-amount {
+  font-size: 48px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.detail-merchant {
+  font-size: 16px;
+  color: #9CA3AF;
+  margin-bottom: 4px;
+}
+
+.detail-datetime {
+  font-size: 14px;
+  color: #9CA3AF;
+  margin-bottom: 40px;
+}
+
+.detail-info-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.detail-status {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 12px;
+}
+
+.status-label {
+  color: #9CA3AF;
+  font-weight: normal;
+}
+
+.status-value {
+  font-weight: bold;
+}
+
+.detail-card {
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 16px;
+}
+
+.detail-separator {
+  height: 1px;
+  background: #E5E7EB;
+  margin: 16px 0;
+}
+
+.detail-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+}
+
+.total-label {
+  color: #000;
+}
+
+.total-amount {
+  color: #000;
+  font-weight: bold;
+}
+
+.transaction-not-found {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 18px;
+  color: #9CA3AF;
+}
+
+@media (max-width: 425px) {
+  .transaction-detail-container {
+    padding: 16px;
+  }
+}
+

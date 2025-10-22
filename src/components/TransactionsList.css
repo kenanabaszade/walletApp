@@ -1,0 +1,50 @@
+.transactions-list-container {
+  max-width: 425px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #F5F5F5;
+  min-height: 100vh;
+}
+
+.top-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.right-column {
+  display: flex;
+}
+
+.latest-transactions-section {
+  margin-top: 24px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin: 0 0 12px 0;
+  text-align: left;
+}
+
+.transactions-list {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 425px) {
+  .transactions-list-container {
+    padding: 16px;
+  }
+}
+
