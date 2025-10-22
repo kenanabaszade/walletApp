@@ -23,12 +23,12 @@ A beautiful, mobile-first wallet application built with React, TypeScript, and m
 <div align="center">
 
 ### Main Screen (Transactions List)
-![Transactions List]<img width="516" height="1454" alt="image" src="https://github.com/user-attachments/assets/a5df1d66-b6a4-48c2-b255-fc7dd4be13d3" />
-)
+<img width="516" height="1454" alt="image" src="https://github.com/user-attachments/assets/a5df1d66-b6a4-48c2-b255-fc7dd4be13d3" />
+ 
 <!-- Screenshot of the main screen with card balance, daily points, and transaction list -->
 
 ### Transaction Detail Screen
-![Transaction Detail] 
+ 
 <!-- Screenshot of the detail screen showing transaction information -->
 
  <img width="564" height="1454" alt="image" src="https://github.com/user-attachments/assets/5b5182c8-6067-4c41-b6dd-4f8cc4b0e237" />
