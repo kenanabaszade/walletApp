@@ -28,27 +28,11 @@ A beautiful, mobile-first wallet application built with React, TypeScript, and m
 <!-- Screenshot of the main screen with card balance, daily points, and transaction list -->
 
 ### Transaction Detail Screen
-![Transaction Detail](<img width="564" height="1454" alt="image" src="https://github.com/user-attachments/assets/05056ebe-cdcd-47d8-9de8-d236f146856d" />
-)
+![Transaction Detail] 
 <!-- Screenshot of the detail screen showing transaction information -->
 
-### Features Showcase
-<table>
-  <tr>
-    <td><img src="./screenshots/feature-1.png" alt="Card Balance" width="250"/></td>
-    <td><img src="./screenshots/feature-2.png" alt="Daily Points" width="250"/></td>
-    <td><img src="./screenshots/feature-3.png" alt="Transactions" width="250"/></td>
-  </tr>
-  <tr>
-    <td align="center"><b>Card Balance</b></td>
-    <td align="center"><b>Daily Points</b></td>
-    <td align="center"><b>Latest Transactions</b></td>
-  </tr>
-</table>
+ <img width="564" height="1454" alt="image" src="https://github.com/user-attachments/assets/5b5182c8-6067-4c41-b6dd-4f8cc4b0e237" />
 
-</div>
-
----
 
 ## ✨ Features
 
